@@ -1,0 +1,12 @@
+<RCC>
+<qresource>
+    <file>images/copy.png</file>
+    <file>images/cut.png</file>
+    <file>images/document.png</file>
+    <file>images/icon.png</file>
+    <file>images/new.png</file>
+    <file>images/open.png</file>
+    <file>images/paste.png</file>
+    <file>images/save.png</file>
+</qresource>
+</RCC>
