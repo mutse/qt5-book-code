@@ -1,0 +1,187 @@
+<ui version="4.0" >
+ <class>ConvertDialog</class>
+ <widget class="QDialog" name="ConvertDialog" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>285</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Image Converter</string>
+  </property>
+  <layout class="QGridLayout" >
+   <item row="0" column="0" >
+    <widget class="QLabel" name="sourceFileLabel" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="frameShape" >
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow" >
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="text" >
+      <string>&amp;Source File:</string>
+     </property>
+     <property name="buddy" >
+      <cstring>sourceFileEdit</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2" >
+    <widget class="QLineEdit" name="sourceFileEdit" />
+   </item>
+   <item row="0" column="3" >
+    <widget class="QPushButton" name="browseButton" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text" >
+      <string>&amp;Browse</string>
+     </property>
+     <property name="shortcut" >
+      <string>Alt+B</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" >
+    <widget class="QLabel" name="targetFormatLabel" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text" >
+      <string>&amp;Target Format:</string>
+     </property>
+     <property name="buddy" >
+      <cstring>targetFormatComboBox</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" >
+    <widget class="QComboBox" name="targetFormatComboBox" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <item>
+      <property name="text" >
+       <string>BMP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text" >
+       <string>EPS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text" >
+       <string>GIF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text" >
+       <string>JPEG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text" >
+       <string>PNG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text" >
+       <string>TIFF</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="1" column="2" colspan="2" >
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType" >
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" >
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0" colspan="4" >
+    <widget class="QGroupBox" name="optionsGroupBox" >
+     <property name="title" >
+      <string>Options</string>
+     </property>
+     <layout class="QHBoxLayout" >
+      <item>
+       <widget class="QCheckBox" name="enhanceCheckBox" >
+        <property name="text" >
+         <string>&amp;Enhance</string>
+        </property>
+        <property name="shortcut" >
+         <string>Alt+E</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="monochromeCheckBox" >
+        <property name="text" >
+         <string>&amp;Monochrome</string>
+        </property>
+        <property name="shortcut" >
+         <string>Alt+M</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="4" >
+    <widget class="QTextEdit" name="outputTextEdit" >
+     <property name="readOnly" >
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1" colspan="3" >
+    <widget class="QDialogButtonBox" name="buttonBox" >
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons" >
+      <set>QDialogButtonBox::Close|QDialogButtonBox::NoButton|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>sourceFileEdit</tabstop>
+  <tabstop>browseButton</tabstop>
+  <tabstop>targetFormatComboBox</tabstop>
+  <tabstop>enhanceCheckBox</tabstop>
+  <tabstop>monochromeCheckBox</tabstop>
+  <tabstop>outputTextEdit</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
