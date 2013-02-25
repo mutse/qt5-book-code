@@ -1,0 +1,36 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\WINNT\System32\stdole2.tlb#OLE Automation
+Reference=*\G{00025E01-0000-0000-C000-000000000046}#5.0#0#..\..\..\..\..\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll#Microsoft DAO 3.6 Object Library
+Reference=*\G{2B2B6F3E-86CF-4C49-9DF5-80483B47F17B}#1.0#0#..\Debug\qaxaddressbook.exe#qaxaddressbook 1.0 Type Library
+Form=AddressList.frm
+Form=EditDialog.frm
+Startup="AddressView"
+Command32=""
+Name="AddressManager"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="Trolltech AS"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1

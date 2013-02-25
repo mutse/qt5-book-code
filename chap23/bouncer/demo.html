@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>The AxBouncer Widget in Action</title>
+</head>
+<body>
+<h1>AxBouncer</h1>
+
+<p>
+<object id="AxBouncer"
+        classid="clsid:5e2461aa-a3e8-4f7a-8b04-307459a4c08c">
+<b>The ActiveX control is not available. Make sure you have built and
+registered the component server.</b>
+</object>
+
+<form>
+<p>
+<input type="button" value="Start" onClick="AxBouncer.start()">
+<input type="button" value="Stop" onClick="AxBouncer.stop()">
+
+<p>
+<table>
+<tr>
+<td>Color:
+<td><input type="edit" id="colorEdit" value="blue">
+<td><input type="button" value="Set" onClick="setColor(this.form)">
+<tr>
+<td>Speed:
+<td><input type="edit" id="speedEdit" value="Normal">
+<td><input type="button" value="Set" onClick="setSpeed(this.form)">
+<tr>
+<td>Radius:
+<td><input type="edit" id="radiusEdit" value="15">
+<td><input type="button" value="Set" onClick="SetRadius(this.form)">
+</table>
+</form>
+
+<script language="JavaScript">
+function setColor(form)
+{
+    AxBouncer.color = form.colorEdit.value;
+}
+
+function setSpeed(form)
+{
+    AxBouncer.speed = form.speedEdit.value;
+}
+
+function AxBouncer::bouncing()
+{
+    document.title = "Bouncing again!";
+}
+</script>
+
+<script language="VBScript">
+Sub SetRadius(form)
+    AxBouncer.radius = form.radiusEdit.value
+End Sub
+</script>
+</body>
+</html>
