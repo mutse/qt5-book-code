@@ -1,0 +1,105 @@
+/* R1 */
+QDialog {
+    background-image: url(:/images/background.png);
+}
+
+/* R2 */
+QLabel {
+    font: 9pt;
+    color: rgb(0, 0, 127);
+}
+
+/* R3 */
+QComboBox:editable,
+QLineEdit,
+QListView {
+    color: rgb(127, 0, 63);
+    background-color: rgb(255, 255, 241);
+    selection-color: white;
+    selection-background-color: rgb(191, 31, 127);
+    border: 2px groove gray;
+    border-radius: 10px;
+    padding: 2px 4px;
+}
+
+/* R4 */
+QListView {
+    padding: 5px 4px;
+}
+
+/* R5 */
+QComboBox:!editable,
+QPushButton {
+    color: white;
+    font: bold 10pt;
+    border-image: url(:/images/button.png) 16;
+    border-width: 16px;
+    padding: -16px 0px;
+    min-height: 32px;
+    min-width: 60px;
+}
+
+/* R6 */
+QComboBox:!editable:hover,
+QComboBox::drop-down:editable:hover,
+QPushButton:hover {
+    border-image: url(:/images/button-hover.png) 16;
+}
+
+/* R7 */
+QComboBox:!editable:on,
+QPushButton:pressed {
+    color: lightgray;
+    border-image: url(:/images/button-pressed.png) 16;
+    padding-top: -15px;
+    padding-bottom: -17px;
+}
+
+/* R8 */
+QComboBox::down-arrow {
+    image: url(:/images/down-arrow.png);
+}
+
+/* R9 */
+QComboBox::down-arrow:on {
+    top: 1px;
+}
+
+/* R10 */
+QComboBox * {
+    font: 9pt;
+}
+
+/* R11 */
+QComboBox::drop-down:!editable {
+    subcontrol-origin: padding;
+    subcontrol-position: center right;
+    width: 11px;
+    height: 6px;
+    background: none;
+}
+
+/* R12 */
+QComboBox:!editable {
+    padding-right: 15px;
+}
+
+/* R13 */
+QComboBox::drop-down:editable {
+    border-image: url(:/images/button.png) 16;
+    border-width: 10px;
+    subcontrol-origin: margin;
+    subcontrol-position: center right;
+    width: 7px;
+    height: 6px;
+}
+
+/* R14 */
+QComboBox::drop-down:editable:open {
+    border-image: url(:/images/button-pressed.png) 16;
+}
+
+/* R15 */
+QComboBox:editable {
+    margin-right: 29px;
+}
