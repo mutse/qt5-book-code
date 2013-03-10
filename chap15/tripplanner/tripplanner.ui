@@ -1,0 +1,331 @@
+<ui version="4.0" >
+ <class>TripPlanner</class>
+ <widget class="QDialog" name="TripPlanner" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>382</width>
+    <height>369</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Trip Planner</string>
+  </property>
+  <layout class="QGridLayout" >
+   <item row="0" column="0" >
+    <widget class="QGroupBox" name="tripInfoGroupBox" >
+     <property name="title" >
+      <string>Trip Information</string>
+     </property>
+     <layout class="QGridLayout" >
+      <item row="3" column="0" >
+       <widget class="QLabel" name="timeLabel" >
+        <property name="text" >
+         <string>Appro&amp;ximate Time:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>timeEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1" >
+       <widget class="QDateTimeEdit" name="dateEdit" >
+        <property name="displayFormat" >
+         <string>yyyy-MM-dd</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1" >
+       <widget class="QDateTimeEdit" name="timeEdit" >
+        <property name="displayFormat" >
+         <string>hh:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" >
+       <widget class="QLabel" name="dateLabel" >
+        <property name="text" >
+         <string>&amp;Date:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>dateEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="toLabel" >
+        <property name="text" >
+         <string>&amp;To:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>toComboBox</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="2" >
+       <layout class="QHBoxLayout" >
+        <item>
+         <widget class="QRadioButton" name="departureRadioButton" >
+          <property name="text" >
+           <string>D&amp;eparture</string>
+          </property>
+          <property name="shortcut" >
+           <string>Alt+E</string>
+          </property>
+          <property name="checked" >
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="arrivalRadioButton" >
+          <property name="text" >
+           <string>&amp;Arrival</string>
+          </property>
+          <property name="shortcut" >
+           <string>Alt+A</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="1" >
+       <widget class="QComboBox" name="fromComboBox" >
+        <property name="currentIndex" >
+         <number>0</number>
+        </property>
+        <item>
+         <property name="text" >
+          <string>Berlin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Bonn</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Bremen</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Dresden</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Düsseldorf</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Dortmund</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Frankfurt am Main</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Hannover</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Hamburg</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>München</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Nürnberg</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Rostock</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Stuttgart</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="1" >
+       <widget class="QComboBox" name="toComboBox" >
+        <property name="currentIndex" >
+         <number>0</number>
+        </property>
+        <item>
+         <property name="text" >
+          <string>Berlin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Bonn</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Bremen</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Dresden</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Düsseldorf</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Dortmund</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Frankfurt am Main</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Hannover</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Hamburg</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>München</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Nürnberg</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Rostock</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Stuttgart</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="0" >
+       <widget class="QLabel" name="fromLabel" >
+        <property name="text" >
+         <string>&amp;From:</string>
+        </property>
+        <property name="buddy" >
+         <cstring>fromComboBox</cstring>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item rowspan="3" row="0" column="1" >
+    <widget class="QDialogButtonBox" name="buttonBox" >
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="standardButtons" >
+      <set>QDialogButtonBox::Close</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" >
+    <widget class="QTableWidget" name="tableWidget" >
+     <property name="columnCount" >
+      <number>6</number>
+     </property>
+     <column>
+      <property name="text" >
+       <string>Date</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Departure</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Arrival</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Duration</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Changes</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Train type</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="2" column="0" >
+    <layout class="QHBoxLayout" >
+     <item>
+      <widget class="QLabel" name="statusLabel" >
+       <property name="sizePolicy" >
+        <sizepolicy vsizetype="Preferred" hsizetype="Expanding" >
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text" >
+        <string>Ready</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="progressBar" >
+       <property name="minimum" >
+        <number>0</number>
+       </property>
+       <property name="maximum" >
+        <number>100</number>
+       </property>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
