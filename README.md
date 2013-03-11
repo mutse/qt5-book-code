@@ -148,5 +148,13 @@ The examples for all chapters with Qt 5.0 will be built on Ubuntu 12.04, and you
         chap24/expenses
         chap24/unitconverter
 
+### Note
 
+The chap15 Networking needs QtFtp module before compiling because it is removed in Qt5. You can download QtFtp from its [repo](git://gitorious.org/qt/qtftp.git) by git command:
+
+	::sh
+	git clone git://gitorious.org/qt/qtftp.git
+
+All examples are compiled on Ubuntu 12.04.2 LTE with Qt5, except the chap23,
+which is only compiled on Windows platform with axserver module.
 
