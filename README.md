@@ -157,3 +157,7 @@ The chap15 Networking needs QtFtp module before compiling because it is removed 
 All examples are compiled on Ubuntu 12.04.2 LTE with Qt5, except the chap23,
 which is only compiled on Windows platform with axserver module.
 
+### Bugs
+
+There is a bug in the chap10/booleanparser program, when run it and change the expression what you are inputting, then the program exits with a segment fault error info.
+
