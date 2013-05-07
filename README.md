@@ -159,5 +159,5 @@ which is only compiled on Windows platform with axserver module.
 
 ### Ask
 
-If you have any questions or good ideas, please send it to me. And my email is [gmail](yyhoo2.young@gmail.com)
+If you have any questions or good ideas, please send it to me. And my email is [Gmail](<yyhoo2.young@gmail.com>)
 
