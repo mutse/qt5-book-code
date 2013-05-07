@@ -18,7 +18,10 @@ void BooleanModel::setRootNode(Node *node)
 {
     delete rootNode;
     rootNode = node;
-    //reset();
+
+    // because reset() was deprecated on Qt 5.0
+    beginResetModel();
+    endResetModel();
 }
 
 QModelIndex BooleanModel::index(int row, int column,
