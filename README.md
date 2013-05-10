@@ -157,7 +157,14 @@ The chap15 Networking needs QtFtp module before compiling because it is removed 
 All examples are compiled on Ubuntu 12.04.2 LTE with Qt5, except the chap23,
 which is only compiled on Windows platform with axserver module.
 
+### Thanks
+
+Ersin Özkan <ersin.ozkan@windowslive.com> 
+
+reported pixmap.fill(this, 0, 0) in the chap05/plotter/plotter.cpp is deprecated with QT5.0.2, and suggested to use fill(QColor &) instead it.
+
+
 ### Ask
 
-If you have any questions or good ideas, please send them to me. And my email is <yyhoo2.young@gmail.com>
+If you have any questions or suggestions, please send them to me. And my email is <yyhoo2.young@gmail.com>
 
