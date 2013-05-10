@@ -215,7 +215,7 @@ void Plotter::updateRubberBandRegion()
 void Plotter::refreshPixmap()
 {
     pixmap = QPixmap(size());
-    pixmap.fill(this, 0, 0);
+    pixmap.fill(Qt::black); // fill(const QPaintDevice*, const QPoint&) is deprecated, ignored on Qt 5.0.2
 
     QPainter painter(&pixmap);
     painter.initFrom(this);
