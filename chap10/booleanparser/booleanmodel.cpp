@@ -16,11 +16,12 @@ BooleanModel::~BooleanModel()
 
 void BooleanModel::setRootNode(Node *node)
 {
+	// because reset() was deprecated on Qt 5.0
+	beginResetModel();
+
     delete rootNode;
     rootNode = node;
 
-    // because reset() was deprecated on Qt 5.0
-    beginResetModel();
     endResetModel();
 }
 
