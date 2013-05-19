@@ -166,5 +166,5 @@ reported pixmap.fill(this, 0, 0) in the chap05/plotter/plotter.cpp is deprecated
 
 ### Ask
 
-If you have any questions or suggestions, please send them to me. And my email is <yyhoo2.young@gmail.com>
+If you have any questions or suggestions, please send to <yyhoo2.young@gmail.com>
 
