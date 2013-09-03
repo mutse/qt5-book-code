@@ -163,6 +163,13 @@ Ersin Özkan <ersin.ozkan@windowslive.com>
 
 reported pixmap.fill(this, 0, 0) in the chap05/plotter/plotter.cpp is deprecated with QT5.0.2, and suggested to use fill(QColor &) instead it.
 
+### TODO
+
+>> * <s>Test with Qt5.0.1</s>
+>> * <s>Test with Qt5.0.2</s>
+>> * Test with Qt5.1.0
+>> * Test with Qt5.1.1
+>> * Test with Qt5.2.0
 
 ### Ask
 
