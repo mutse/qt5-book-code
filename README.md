@@ -165,11 +165,11 @@ reported pixmap.fill(this, 0, 0) in the chap05/plotter/plotter.cpp is deprecated
 
 ### TODO
 
->> * <s>Test with Qt5.0.1</s>
->> * <s>Test with Qt5.0.2</s>
->> * Test with Qt5.1.0
->> * Test with Qt5.1.1
->> * Test with Qt5.2.0
+>> * <s>Test with Qt5.0.1</s> -- DONE
+>> * <s>Test with Qt5.0.2</s> -- DONE
+>> * Test with Qt5.1.0 -- TODO
+>> * Test with Qt5.1.1 -- TODO
+>> * Test with Qt5.2.0 -- TODO
 
 ### Ask
 
