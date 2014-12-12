@@ -5,7 +5,7 @@
 
 bool createConnection()
 {
-    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL"); // QSQLITE
+    QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE"); // QSQLITE
     db.setDatabaseName("scooters.dat");
     if (!db.open()) {
         QMessageBox::warning(0, QObject::tr("Database Error"),

@@ -165,13 +165,21 @@ reported pixmap.fill(this, 0, 0) in the chap05/plotter/plotter.cpp is deprecated
 
 ### TODO
 
-* <del>Test with Qt5.0.1</del>
-* <del>Test with Qt5.0.2</del>
-* Test with Qt5.1.0
-* Test with Qt5.1.1
-* Test with Qt5.2.0
+> <input type="checkbox" disabled checked> <s>Test with Qt5.0.1</s>
+
+> <input type="checkbox" disabled checked> <s>Test with Qt5.0.2</s>
+
+> <input type="checkbox" disabled> Test with Qt5.1.0
+
+> <input type="checkbox" disabled> Test with Qt5.1.1
+
+> <input type="checkbox" disabled> Test with Qt5.2.0
+
+> <input type="checkbox" disabled> Test with Qt5.3.0
+
+> <input type="checkbox" disabled> Test with Qt5.4.0
 
 ### Ask
 
-If you have any questions or suggestions, please send to <yyhoo2.young@gmail.com>
+If you have any questions or suggestions, please send to <a href="mailto:yyhoo2.young@gmail.com">yyhoo2.young@gmail.com<a>
 
