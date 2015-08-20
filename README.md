@@ -179,6 +179,8 @@ reported pixmap.fill(this, 0, 0) in the chap05/plotter/plotter.cpp is deprecated
 
 > <input type="checkbox" disabled> Test with Qt5.4.0
 
+> <input type="checkbox" disabled> Test with Qt5.5.0
+
 ### Ask
 
 If you have any questions or suggestions, please send to <a href="mailto:yyhoo2.young@gmail.com">yyhoo2.young@gmail.com<a>
