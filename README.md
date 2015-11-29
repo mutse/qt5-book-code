@@ -1,13 +1,13 @@
-qt5-book-code
+Qt5 Book Code
 =============
 
-Porting source code of the book C++ GUI Programming with Qt 4 from Qt4 to Qt5.
-
-### Porting Qt4 to Qt5
+**Description**:
 
 Porting the source code of the book C++ GUI Programming with Qt 4 (second edition) from Qt4 to Qt5 by Mutse Young.
 
 The examples for all chapters with Qt 5.0 will be built on Ubuntu 12.04, and you can install qt5.0 with [ppa](http://developer.ubuntu.com/get-started/gomobile/).
+
+## Contents
 
 1. Getting Started
 
@@ -148,22 +148,22 @@ The examples for all chapters with Qt 5.0 will be built on Ubuntu 12.04, and you
         chap24/expenses
         chap24/unitconverter
 
-### Note
+## Note
 
 The chap15 Networking needs QtFtp module before compiling because it is removed in Qt5. You can download QtFtp from its [repo](git://gitorious.org/qt/qtftp.git) by git command:
 
-	git clone git://gitorious.org/qt/qtftp.git
+> git clone git://gitorious.org/qt/qtftp.git
 
 All examples are compiled on Ubuntu 12.04.2 LTE with Qt5, except the chap23,
 which is only compiled on Windows platform with axserver module.
 
-### Thanks
+## Thanks
 
 Ersin Özkan <ersin.ozkan@windowslive.com> 
 
 reported pixmap.fill(this, 0, 0) in the chap05/plotter/plotter.cpp is deprecated with QT5.0.2, and suggested to use fill(QColor &) instead it.
 
-### TODO
+## TODO
 
 > <input type="checkbox" disabled checked> <s>Test with Qt5.0.1</s>
 
@@ -181,7 +181,7 @@ reported pixmap.fill(this, 0, 0) in the chap05/plotter/plotter.cpp is deprecated
 
 > <input type="checkbox" disabled> Test with Qt5.5.0
 
-### Ask
+## Getting involved
 
-If you have any questions or suggestions, please send to <a href="mailto:yyhoo2.young@gmail.com">yyhoo2.young@gmail.com<a>
+Any questions or suggestions are welcome. You can contact me with <a href="mailto:yyhoo2.young@gmail.com">yyhoo2.young@gmail.com<a>
 
