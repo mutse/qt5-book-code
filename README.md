@@ -163,6 +163,11 @@ Ersin Özkan <ersin.ozkan@windowslive.com>
 
 reported pixmap.fill(this, 0, 0) in the chap05/plotter/plotter.cpp is deprecated with QT5.0.2, and suggested to use fill(QColor &) instead it.
 
+Adriano Martinez <uberkael@gmail.com>
+
+found the bug pixmap.fill(palette().dark().color()) not work in Qt5.5, and suggested to use
+ fill(QWidget::palette().color(QWidget::backgroundRole())) instead it.
+
 ## TODO
 
 > <input type="checkbox" disabled checked> <s>Test with Qt5.0.1</s>
