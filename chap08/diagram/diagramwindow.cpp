@@ -29,6 +29,7 @@ DiagramWindow::DiagramWindow()
             this, SLOT(updateActions()));
 
     setWindowTitle(tr("Diagram"));
+    setWindowIcon(QIcon(":/images/colors.png"));
     updateActions();
 }
 
