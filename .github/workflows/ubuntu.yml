@@ -35,5 +35,5 @@ jobs:
           fetch-depth: 1
       - name: build ubuntu
         run: |
-          qmake -makefile
+          qmake -makefile -o Makefile "CONFIG+=release" *.pro
           make
