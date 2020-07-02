@@ -1,12 +1,12 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    chap01\age \
-    chap01\hello \
-    chap01\quit \
-    chap02\find \
-    chap02\gotocell1 \
-    chap02\gotocell2 \
-    chap02\sort \
-    chap03\spreadsheet \
-    chap04\spreadsheet
+    chap01/age \
+    chap01/hello \
+    chap01/quit \
+    chap02/find \
+    chap02/gotocell1 \
+    chap02/gotocell2 \
+    chap02/sort \
+    chap03/spreadsheet \
+    chap04/spreadsheet
