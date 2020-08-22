@@ -19,5 +19,57 @@ SUBDIRS += \
     chap06/mailclient \
     chap06/mdieditor \
     chap06/preferences \
-    chap06/splitter
-    
+    chap06/splitter \
+    chap07/ticker \
+    chap08/cityscape \
+    chap08/diagram \
+    chap08/oventimer \
+    chap09/projectchooser \
+    chap10/booleanparser \
+    chap10/cities  \
+    chap10/colornames \
+    chap10/coordinatesetter \
+    chap10/currencies \
+    chap10/directoryviewer \
+    chap10/flowchartsymbolpicker \
+    chap10/settingsviewer \
+    chap10/teamleaders \
+    chap10/trackeditor \
+    chap12/imageconverter \
+    chap12/imagespace \
+    chap12/tidy \
+    chap13/scooters \
+    chap13/staffmanager \
+    chap14/imagepro \
+    chap14/semaphores \
+    chap14/threads \
+    chap14/waitconditions \
+    chap15/ftpgetftpget \
+    chap15/httpget \
+    chap15/spider \
+    chap15/tripplanner \
+    chap15/tripserver \
+    chap15/weatherballoon \
+    chap15/weatherstation \
+    chap16/domparser \
+    chap16/saxhandler \
+    chap16/xmlstreamreader \
+    chap16/xmlstreamwriter \
+    chap19/bronze \
+    chap19/candy \
+    chap20/teapots \
+    chap20/tetrahedron \
+    chap20/vowelcube \
+    chap21/basiceffectsplugin \
+    chap21/bronze \
+    chap21/bronzestyleplugin \
+    chap21/cursorplugin \
+    chap21/extraeffectsplugin \
+    chap21/textart \
+    chap22/calculator \
+    chap22/gaspump \
+    chap22/htmleditor \
+    chap23/addressbook \
+    chap23/bouncer \
+    chap23/mediaplayer \
+    chap23/tictactoe
