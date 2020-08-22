@@ -44,7 +44,6 @@ SUBDIRS += \
     chap14/semaphores \
     chap14/threads \
     chap14/waitconditions \
-    chap15/ftpget \
     chap15/httpget \
     chap15/spider \
     chap15/tripplanner \
