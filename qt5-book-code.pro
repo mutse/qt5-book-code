@@ -44,7 +44,7 @@ SUBDIRS += \
     chap14/semaphores \
     chap14/threads \
     chap14/waitconditions \
-    chap15/ftpgetftpget \
+    chap15/ftpget \
     chap15/httpget \
     chap15/spider \
     chap15/tripplanner \
@@ -68,8 +68,4 @@ SUBDIRS += \
     chap21/textart \
     chap22/calculator \
     chap22/gaspump \
-    chap22/htmleditor \
-    chap23/addressbook \
-    chap23/bouncer \
-    chap23/mediaplayer \
-    chap23/tictactoe
+    chap22/htmleditor
