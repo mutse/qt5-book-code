@@ -45,7 +45,6 @@ SUBDIRS += \
     chap14/threads \
     chap14/waitconditions \
     chap15/httpget \
-    chap15/spider \
     chap15/tripplanner \
     chap15/tripserver \
     chap15/weatherballoon \
