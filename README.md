@@ -174,17 +174,7 @@ found the bug pixmap.fill(palette().dark().color()) not work in Qt5.5, and sugge
 
 > <input type="checkbox" disabled checked> <s>Test with Qt5.0.2</s>
 
-> <input type="checkbox" disabled> Test with Qt5.1.0
-
-> <input type="checkbox" disabled> Test with Qt5.1.1
-
-> <input type="checkbox" disabled> Test with Qt5.2.0
-
-> <input type="checkbox" disabled> Test with Qt5.3.0
-
-> <input type="checkbox" disabled> Test with Qt5.4.0
-
-> <input type="checkbox" disabled> Test with Qt5.5.0
+> <input type="checkbox" disabled> Testing with Qt6.3.1
 
 ## Getting involved
 
