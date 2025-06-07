@@ -159,6 +159,8 @@ which is only compiled on Windows platform with axserver module.
 
 ## Thanks
 
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+
 Ersin Özkan <ersin.ozkan@windowslive.com> 
 
 reported pixmap.fill(this, 0, 0) in the chap05/plotter/plotter.cpp is deprecated with QT5.0.2, and suggested to use fill(QColor &) instead it.
